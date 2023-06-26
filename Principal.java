@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package trabajodia15;
 
 import java.util.Scanner;
@@ -116,4 +117,26 @@ public class Principal {
 		
 	}
 
+=======
+package añobiciesto;
+import java.util.*;
+public class Principal {
+
+	public static void main(String args[]) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Ingrese un año");
+		int año=sc.nextInt();
+		
+	Condicional con=new Condicional();
+	con.setAño(año);
+	boolean añoo=con.getbiciesto();
+	
+	if(añoo) {
+		System.out.println("El año es biciesto");
+	}else {
+		System.out.println("El año no es biciesto");
+	}
+	}
+>>>>>>> 2114883 (Ejercicios java dia 16)
 }
